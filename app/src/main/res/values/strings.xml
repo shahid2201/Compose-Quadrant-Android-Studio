@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Compose Quadrant Android Studio</string>
+    <string name="first_quadrant_heading">Text composable</string>
+    <string name="first_quadrant_content">Displays text and follows the recommended Material Design guidelines.</string>
+    <string name="second_quadrant_heading">Image composable</string>
+    <string name="second_quadrant_content">Creates a composable that lays out and draws a given Painter class object.</string>
+    <string name="third_quadrant_heading">Row composable</string>
+    <string name="third_quadrant_content">A layout composable that places its children in a horizontal sequence.</string>
+    <string name="fourth_content_string">Column composable</string>
+    <string name="fourth_quadrant_content">A layout composable that places its children in a vertical sequence.</string>
+</resources>
