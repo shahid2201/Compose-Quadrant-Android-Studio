@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeQuadrantAndroidStudioTheme {
                 Surface {
-
+                    QuadrantsPreview()
                 }
             }
         }
@@ -92,7 +92,7 @@ fun Quadrant(quadrantHeading: String, quadrantContent: String, bgColor: Color, m
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun QuadrantsPreview() {
     ComposeQuadrantAndroidStudioTheme {
         Quadrants()
     }
